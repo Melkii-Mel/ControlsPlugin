@@ -1,0 +1,9 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1702031177
+icon.svg::CompressedTexture2D::6419551288220453823::1702030967::1702030974::1::::<><>::
+Saver.gd::GDScript::-1::1702031154::0::1::::<>Node<>::
+::res://addons/::1702030992
+::res://addons/Controls/::1702031018
+Controls.gd::GDScript::-1::1702027451::0::1::::ControlsMap<>Resource<>::
+DEFAULT.tres::Resource/ControlsMap::7662775458257645661::1702030936::0::1::::<><>::res://addons/Controls/Controls.gd
+DictToInputMap.gd::GDScript::-1::1702031018::0::1::::DictToInputMap<>RefCounted<>::

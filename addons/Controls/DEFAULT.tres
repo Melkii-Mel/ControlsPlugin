@@ -1,0 +1,76 @@
+[gd_resource type="Resource" script_class="ControlsMap" load_steps=16 format=3 uid="uid://dhf5163w4o4v6"]
+
+[ext_resource type="Script" path="res://addons/Controls/Controls.gd" id="1_l5b3t"]
+
+[sub_resource type="InputEventKey" id="InputEventKey_f2yy1"]
+device = -1
+physical_keycode = 90
+unicode = 122
+
+[sub_resource type="InputEventMouseButton" id="InputEventMouseButton_v7w82"]
+device = -1
+button_index = 1
+
+[sub_resource type="InputEventKey" id="InputEventKey_m2vba"]
+device = -1
+physical_keycode = 4194309
+
+[sub_resource type="InputEventKey" id="InputEventKey_q6mgp"]
+device = -1
+physical_keycode = 88
+unicode = 120
+
+[sub_resource type="InputEventMouseButton" id="InputEventMouseButton_68ykr"]
+device = -1
+button_index = 2
+
+[sub_resource type="InputEventKey" id="InputEventKey_xctmg"]
+device = -1
+physical_keycode = 4194325
+
+[sub_resource type="InputEventKey" id="InputEventKey_lckwv"]
+device = -1
+physical_keycode = 83
+unicode = 115
+
+[sub_resource type="InputEventKey" id="InputEventKey_p3ggs"]
+device = -1
+physical_keycode = 4194322
+
+[sub_resource type="InputEventKey" id="InputEventKey_j7401"]
+device = -1
+physical_keycode = 65
+unicode = 97
+
+[sub_resource type="InputEventKey" id="InputEventKey_i2xo7"]
+device = -1
+physical_keycode = 4194319
+
+[sub_resource type="InputEventKey" id="InputEventKey_cvlwh"]
+device = -1
+physical_keycode = 68
+unicode = 100
+
+[sub_resource type="InputEventKey" id="InputEventKey_lw4yk"]
+device = -1
+physical_keycode = 4194321
+
+[sub_resource type="InputEventKey" id="InputEventKey_4pb10"]
+device = -1
+physical_keycode = 87
+unicode = 119
+
+[sub_resource type="InputEventKey" id="InputEventKey_tcuhc"]
+device = -1
+physical_keycode = 4194320
+
+[resource]
+script = ExtResource("1_l5b3t")
+controls = {
+"action0": Array[InputEvent]([SubResource("InputEventKey_f2yy1"), SubResource("InputEventMouseButton_v7w82"), SubResource("InputEventKey_m2vba")]),
+"action1": Array[InputEvent]([SubResource("InputEventKey_q6mgp"), SubResource("InputEventMouseButton_68ykr"), SubResource("InputEventKey_xctmg")]),
+"down": Array[InputEvent]([SubResource("InputEventKey_lckwv"), SubResource("InputEventKey_p3ggs")]),
+"left": Array[InputEvent]([SubResource("InputEventKey_j7401"), SubResource("InputEventKey_i2xo7")]),
+"right": Array[InputEvent]([SubResource("InputEventKey_cvlwh"), SubResource("InputEventKey_lw4yk")]),
+"up": Array[InputEvent]([SubResource("InputEventKey_4pb10"), SubResource("InputEventKey_tcuhc")])
+}
